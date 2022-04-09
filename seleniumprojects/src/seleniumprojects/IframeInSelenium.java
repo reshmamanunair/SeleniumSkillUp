@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class IframeInSelenium {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		//max our window
@@ -19,6 +19,8 @@ public class IframeInSelenium {
 				driver.findElement(By.xpath("//button[@onclick='myFunction()']")).click();
 //differnt ways to get into the iframe
 				//ID,ANME,INDEX,
+				
+				//Making some changes
 
 	}
 
