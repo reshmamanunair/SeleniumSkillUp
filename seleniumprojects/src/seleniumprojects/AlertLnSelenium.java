@@ -38,6 +38,7 @@ public class AlertLnSelenium {
 				driver.switchTo().alert().accept();
 				driver.switchTo().defaultContent();
 				driver.findElement(By.xpath("//a[@id='getwebsitebtn']")).click();
+				//Making some changes to commit via git bash
 				
 				
 	}
