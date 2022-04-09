@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insurance">
+<listeners>
+<listener class-name="seleniumprojects.TestNgListener"/>
+</listeners>
+  <test name="Regression">
+    <classes>
+<class name="seleniumprojects.HomeInsurance">
+<methods>
+<include name="API.*"/>
+
+</methods>
+      </class>
+
+      <class name="seleniumprojects.VehicleInsurance"/>
+      
+   <class name="seleniumprojects.LifeInsurance"/>
+
+<class name="seleniumprojects.GardenInsurance">
+
+<methods>
+<exclude name="Mobile.*"/>
+</methods>
+</class>
+</classes>
+ </test> 
+</suite> 
+<!--this way we are commenting the test-->

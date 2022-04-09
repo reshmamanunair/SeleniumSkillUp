@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insurance">
+  <test name="MonthlyReg">
+    <classes>
+<class name="seleniumprojects.HomeInsurance">
+</class>
+</classes>
+
+
+</test> <!-- Test-->
+<test name="WeeklyReg">
+<!-- we can run daily by changing the weeklyReg to DailyReg-->
+<classes>
+<class name="seleniumprojects.LifeInsurance"/>
+
+<class name="seleniumprojects.VehicleInsurance"/>
+</classes>
+</test>
+</suite> 
+<!--this way we are commenting the test-->
